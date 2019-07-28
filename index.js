@@ -10,7 +10,7 @@ function getFirstSelector(selector){
 
 function nestedTarget(){
   
-  return document.getElementsByTagName
+  return document.getElementsByTagName('div')[4];
   
   
   
