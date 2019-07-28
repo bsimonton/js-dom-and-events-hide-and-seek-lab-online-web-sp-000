@@ -21,7 +21,9 @@ function nestedTarget(){
 
 
 function deepestChild(){
+  let grandNode = document.getElementById('grand-node');
   
+  return grandNode.getElementsByTagName('div')[3];
   
   
 }
@@ -40,6 +42,5 @@ function increaseRankBy(n){
 
 
 
-
-
+ 
 
