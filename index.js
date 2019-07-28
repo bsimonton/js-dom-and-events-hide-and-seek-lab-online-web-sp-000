@@ -32,6 +32,7 @@ function deepestChild(){
 
 function increaseRankBy(n){
   
+  const lis = document
   
   
 }
