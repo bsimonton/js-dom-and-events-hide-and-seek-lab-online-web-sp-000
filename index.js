@@ -32,13 +32,17 @@ function deepestChild(){
 
 function increaseRankBy(n){
   
-  const lis = document.querySelectorAll('.ranked-list li');
-  
-  for (let i = 0; i < lis.length; i++){
+  const lis = document
+    .getElementById('app')
+    .querySelectorAll('ul.ranked-list li');
     
-    lis[i].innerHtml = parseInt(lis[i].innerHtml) + n;
-  }
-  
+
+    for (let i = 0; i < lis.length; i++) {
+      
+      lis[i].innerHTML = parseInt(lis[i].innerHTML)+ n;
+      
+      
+    }
 }
 
 
